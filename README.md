@@ -46,7 +46,7 @@ source venv/bin/activate
 Once the environment is active, install all necessary libraries:
 
 Bash
-pip install customtkinter send2trash python-bidi arabic-reshaper Pillow
+pip install customtkinter Send2Trash Pillow python-bidi arabic-reshaper
 
 
 ### 4. Run the Application
@@ -55,15 +55,18 @@ python main.py
 
 
 ### Requirements 📦
-The application relies on the following Python libraries:
+The application relies on the following libraries:
 
-customtkinter - Modern and dark-mode UI.
+customtkinter - Modern UI and dark mode support.
 
-send2trash - Safe deletion to system trash.
+Send2Trash - Safe deletion to the system's recycle bin/trash.
 
-python-bidi & arabic-reshaper - Proper Hebrew text rendering.
+Pillow - Image handling and thumbnail generation.
 
-Pillow - Image handling for previews.
+python-bidi & arabic-reshaper - Proper Hebrew (RTL) text rendering.
+
+###Technical Note
+This project uses from __future__ import annotations to ensure compatibility with modern Python type hinting (Python 3.7+).
 
 License 📜
 Distributed under the MIT License. See LICENSE for more information.
