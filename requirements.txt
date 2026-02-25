@@ -1,0 +1,5 @@
+customtkinter
+Send2Trash
+Pillow
+python-bidi
+arabic-reshaper
